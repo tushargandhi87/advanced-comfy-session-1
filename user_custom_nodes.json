@@ -243,5 +243,52 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI SAM2(Segment Anything 2)",
+    "url": "https://github.com/neverbiasu/ComfyUI-SAM2",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "neverbiasu",
+      "title": "ComfyUI SAM2(Segment Anything 2)",
+      "id": "sam2",
+      "reference": "https://github.com/neverbiasu/ComfyUI-SAM2",
+      "files": [
+        "https://github.com/neverbiasu/ComfyUI-SAM2"
+      ],
+      "install_type": "git-clone",
+      "description": "This project adapts the SAM2 to incorporate functionalities from [a/comfyui_segment_anything](https://github.com/storyicon/comfyui_segment_anything). Many thanks to continue-revolution for their foundational work."
+    },
+    "nodes": [
+      "InvertMask (segment anything)"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-tbox",
+    "url": "https://github.com/ai-shizuka/ComfyUI-tbox",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "ai-shizuka",
+      "title": "ComfyUI-tbox",
+      "reference": "https://github.com/ai-shizuka/ComfyUI-tbox",
+      "files": [
+        "https://github.com/ai-shizuka/ComfyUI-tbox"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes:ImageLoader, ImageSaver, ImagesSaver, ImageResize, ImageSize, GFPGANNode, MaskAddNode, Video Load, ..."
+    },
+    "nodes": [
+      "LineArtPreprocessor"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
   }
 ]
