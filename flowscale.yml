@@ -246,6 +246,45 @@ workflows:
         demo_type: image
     skip_preprocess: true
     advancedConfig: false
+  - id: qmg7zyodqjs
+    name: capstone_2_api.json
+    file: capstone/capstone_2_api.json
+    version: 2
+    description: ''
+    inputs:
+      - path: 74.inputs.image
+        label: Input Image
+        parameter_name: image_97421
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 75.inputs.default_value
+        label: positive prompt
+        parameter_name: default_value_71827
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 76.inputs.default_value
+        label: Negative Prompt
+        parameter_name: default_value_66954
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 77.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_19341
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Output Image
+        demo_type: image
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
@@ -306,4 +345,4 @@ normal_workflows:
   - id: 68ivzu9otom
     name: capstone_2.json
     file: capstone/capstone_2.json
-    version: 1
+    version: 2
