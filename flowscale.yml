@@ -265,6 +265,6 @@ normal_workflows:
     file: capstone/capstone.json
     version: 1
   - id: 68ivzu9otom
-    name: product_photography_(1).json
-    file: capstone/product_photography_(1).json
-    version: 0
+    name: capstone_2.json
+    file: capstone/capstone_2.json
+    version: 1
