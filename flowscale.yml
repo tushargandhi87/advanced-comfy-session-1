@@ -261,6 +261,6 @@ normal_workflows:
     file: basics/product_photography_improved.json
     version: 0
   - id: ckr0j9391dh
-    name: product-photography-2.json
-    file: capstone/product-photography-2.json
-    version: 0
+    name: capstone.json
+    file: capstone/capstone.json
+    version: 1
