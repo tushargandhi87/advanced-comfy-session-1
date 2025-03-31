@@ -15,11 +15,42 @@ workflows:
   - id: p9by8w497t
     name: basic_outpainting_api.json
     file: inpainting_and_outpainting/basic_outpainting_api.json
-    version: 1
+    version: 2
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 17.inputs.default_value
+        label: Positive Prompt
+        parameter_name: default_value_67083
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 18.inputs.default_value
+        label: Negative Prompt
+        parameter_name: default_value_29134
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 19.inputs.image
+        label: Input Image
+        parameter_name: image_80389
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 20.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_26413
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Output Image
+        demo_type: image
     skip_preprocess: true
+    advancedConfig: false
   - id: pv83l25txlq
     name: product_photography_api.json
     file: inpainting_and_outpainting/product_photography_api.json
@@ -180,7 +211,7 @@ normal_workflows:
   - id: ou0raz0jdo
     name: basic_outpainting.json
     file: inpainting_and_outpainting/basic_outpainting.json
-    version: 1
+    version: 2
   - id: bachzewemb
     name: product_photography.json
     file: inpainting_and_outpainting/product_photography.json
