@@ -256,7 +256,7 @@
             "condition": "always",
             "multiple_of": 8,
             "image": [
-                "74",
+                "79",
                 0
             ]
         },
@@ -795,6 +795,33 @@
         "class_type": "FSSaveImage",
         "_meta": {
             "title": "[FS]⚡Save Image (Output)"
+        }
+    },
+    "79": {
+        "inputs": {
+            "brightness": 1,
+            "contrast": 1,
+            "saturation": 1,
+            "image": [
+                "74",
+                0
+            ]
+        },
+        "class_type": "LayerColor: Brightness & Contrast",
+        "_meta": {
+            "title": "LayerColor: Brightness & Contrast"
+        }
+    },
+    "80": {
+        "inputs": {
+            "images": [
+                "79",
+                0
+            ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+            "title": "Preview Image"
         }
     }
 }
