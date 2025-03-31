@@ -127,7 +127,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 4,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -175,7 +175,7 @@
                 180.6060791015625
             ],
             "flags": {},
-            "order": 5,
+            "order": 4,
             "mode": 0,
             "inputs": [
                 {
@@ -465,7 +465,7 @@
                 106
             ],
             "flags": {},
-            "order": 6,
+            "order": 5,
             "mode": 0,
             "inputs": [
                 {
@@ -523,7 +523,8 @@
                 "cnr_id": "comfy-core",
                 "ver": "0.3.15",
                 "Node name for S&R": "PreviewImage"
-            }
+            },
+            "widgets_values": []
         },
         {
             "id": 17,
@@ -537,7 +538,7 @@
                 157.84732055664062
             ],
             "flags": {},
-            "order": 1,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -572,7 +573,7 @@
                 148.83859252929688
             ],
             "flags": {},
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -607,7 +608,7 @@
                 318
             ],
             "flags": {},
-            "order": 3,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -841,8 +842,8 @@
         "ds": {
             "scale": 0.7400249944258174,
             "offset": [
-                -707.1547919810515,
-                78.0793017723483
+                214.2248076830232,
+                99.923871165971
             ]
         }
     },
