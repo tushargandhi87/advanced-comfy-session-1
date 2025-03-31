@@ -1,7 +1,10 @@
 {
     "10": {
         "inputs": {
-            "text": "text, watermark",
+            "text": [
+                "76",
+                0
+            ],
             "clip": [
                 "15",
                 1
@@ -14,7 +17,7 @@
     },
     "11": {
         "inputs": {
-            "seed": 972263950553838,
+            "seed": 441275377664710,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -99,20 +102,10 @@
             "title": "Load Checkpoint"
         }
     },
-    "16": {
-        "inputs": {
-            "image": "AIR+MAX+DN8.png",
-            "upload": "image"
-        },
-        "class_type": "LoadImage",
-        "_meta": {
-            "title": "Load Image"
-        }
-    },
     "17": {
         "inputs": {
             "text": [
-                "52",
+                "75",
                 0
             ],
             "clip": [
@@ -263,7 +256,7 @@
             "condition": "always",
             "multiple_of": 8,
             "image": [
-                "16",
+                "74",
                 0
             ]
         },
@@ -387,7 +380,7 @@
     "43": {
         "inputs": {
             "text": [
-                "52",
+                "75",
                 0
             ],
             "clip": [
@@ -415,7 +408,7 @@
     },
     "45": {
         "inputs": {
-            "seed": 369962357833304,
+            "seed": 568908813940066,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -527,15 +520,6 @@
         "class_type": "LoadAndApplyICLightUnet",
         "_meta": {
             "title": "Load And Apply IC-Light"
-        }
-    },
-    "52": {
-        "inputs": {
-            "text": "shoe, kept on rock, in forest background"
-        },
-        "class_type": "Text Multiline",
-        "_meta": {
-            "title": "Text Multiline"
         }
     },
     "54": {
@@ -763,6 +747,54 @@
         "class_type": "PreviewImage",
         "_meta": {
             "title": "Preview Image"
+        }
+    },
+    "74": {
+        "inputs": {
+            "image": "example.png",
+            "upload": "image",
+            "label": "Input Image"
+        },
+        "class_type": "FSLoadImage",
+        "_meta": {
+            "title": "[FS]⚡Load Image (Input)"
+        }
+    },
+    "75": {
+        "inputs": {
+            "default_value": "",
+            "label": "positive prompt"
+        },
+        "class_type": "FSLoadText",
+        "_meta": {
+            "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "76": {
+        "inputs": {
+            "default_value": "",
+            "label": "Negative Prompt"
+        },
+        "class_type": "FSLoadText",
+        "_meta": {
+            "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "77": {
+        "inputs": {
+            "filename_prefix": "FlowScale",
+            "format": "png",
+            "label": "Output Image",
+            "quality": 95,
+            "lossless": false,
+            "images": [
+                "67",
+                0
+            ]
+        },
+        "class_type": "FSSaveImage",
+        "_meta": {
+            "title": "[FS]⚡Save Image (Output)"
         }
     }
 }
