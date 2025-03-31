@@ -1,6 +1,6 @@
 {
-    "last_node_id": 77,
-    "last_link_id": 123,
+    "last_node_id": 80,
+    "last_link_id": 126,
     "nodes": [
         {
             "id": 10,
@@ -14,7 +14,7 @@
                 180.6060791015625
             ],
             "flags": {},
-            "order": 13,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -62,7 +62,7 @@
                 262
             ],
             "flags": {},
-            "order": 24,
+            "order": 26,
             "mode": 0,
             "inputs": [
                 {
@@ -123,7 +123,7 @@
                 46
             ],
             "flags": {},
-            "order": 25,
+            "order": 27,
             "mode": 0,
             "inputs": [
                 {
@@ -167,7 +167,7 @@
                 46
             ],
             "flags": {},
-            "order": 23,
+            "order": 25,
             "mode": 0,
             "inputs": [
                 {
@@ -210,7 +210,7 @@
                 46
             ],
             "flags": {},
-            "order": 15,
+            "order": 18,
             "mode": 0,
             "inputs": [
                 {
@@ -253,7 +253,7 @@
                 98
             ],
             "flags": {},
-            "order": 3,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -306,7 +306,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 11,
+            "order": 10,
             "mode": 0,
             "inputs": [
                 {
@@ -354,7 +354,7 @@
                 270
             ],
             "flags": {},
-            "order": 26,
+            "order": 28,
             "mode": 0,
             "inputs": [
                 {
@@ -384,7 +384,7 @@
                 122
             ],
             "flags": {},
-            "order": 14,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -446,7 +446,7 @@
                 58
             ],
             "flags": {},
-            "order": 0,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -480,7 +480,7 @@
                 58
             ],
             "flags": {},
-            "order": 1,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -514,7 +514,7 @@
                 246
             ],
             "flags": {},
-            "order": 18,
+            "order": 20,
             "mode": 0,
             "inputs": [
                 {
@@ -543,7 +543,7 @@
                 246
             ],
             "flags": {},
-            "order": 22,
+            "order": 24,
             "mode": 0,
             "inputs": [
                 {
@@ -572,7 +572,7 @@
                 186
             ],
             "flags": {},
-            "order": 21,
+            "order": 23,
             "mode": 0,
             "inputs": [
                 {
@@ -643,7 +643,7 @@
                 58
             ],
             "flags": {},
-            "order": 2,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -676,7 +676,7 @@
                 26
             ],
             "flags": {},
-            "order": 19,
+            "order": 21,
             "mode": 0,
             "inputs": [
                 {
@@ -715,13 +715,13 @@
                 218
             ],
             "flags": {},
-            "order": 10,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
                     "name": "image",
                     "type": "IMAGE",
-                    "link": 119
+                    "link": 125
                 }
             ],
             "outputs": [
@@ -774,7 +774,7 @@
                 82
             ],
             "flags": {},
-            "order": 16,
+            "order": 19,
             "mode": 0,
             "inputs": [
                 {
@@ -817,7 +817,7 @@
                 146
             ],
             "flags": {},
-            "order": 27,
+            "order": 29,
             "mode": 0,
             "inputs": [
                 {
@@ -873,7 +873,7 @@
                 246
             ],
             "flags": {},
-            "order": 28,
+            "order": 30,
             "mode": 0,
             "inputs": [
                 {
@@ -902,7 +902,7 @@
                 58
             ],
             "flags": {},
-            "order": 29,
+            "order": 31,
             "mode": 0,
             "inputs": [
                 {
@@ -943,7 +943,7 @@
                 82
             ],
             "flags": {},
-            "order": 32,
+            "order": 34,
             "mode": 0,
             "inputs": [
                 {
@@ -984,7 +984,7 @@
                 106
             ],
             "flags": {},
-            "order": 35,
+            "order": 37,
             "mode": 0,
             "inputs": [
                 {
@@ -1029,7 +1029,7 @@
                 246
             ],
             "flags": {},
-            "order": 37,
+            "order": 39,
             "mode": 0,
             "inputs": [
                 {
@@ -1112,7 +1112,7 @@
                 101.47300720214844
             ],
             "flags": {},
-            "order": 17,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
@@ -1200,7 +1200,7 @@
                 262
             ],
             "flags": {},
-            "order": 39,
+            "order": 41,
             "mode": 0,
             "inputs": [
                 {
@@ -1261,7 +1261,7 @@
                 46
             ],
             "flags": {},
-            "order": 40,
+            "order": 42,
             "mode": 0,
             "inputs": [
                 {
@@ -1306,7 +1306,7 @@
                 138
             ],
             "flags": {},
-            "order": 36,
+            "order": 38,
             "mode": 0,
             "inputs": [
                 {
@@ -1381,7 +1381,7 @@
                 46
             ],
             "flags": {},
-            "order": 38,
+            "order": 40,
             "mode": 0,
             "inputs": [
                 {
@@ -1424,7 +1424,7 @@
                 26
             ],
             "flags": {},
-            "order": 30,
+            "order": 32,
             "mode": 0,
             "inputs": [
                 {
@@ -1460,7 +1460,7 @@
                 46
             ],
             "flags": {},
-            "order": 33,
+            "order": 35,
             "mode": 0,
             "inputs": [
                 {
@@ -1544,7 +1544,7 @@
                 26
             ],
             "flags": {},
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -1583,7 +1583,7 @@
                 246
             ],
             "flags": {},
-            "order": 41,
+            "order": 43,
             "mode": 0,
             "inputs": [
                 {
@@ -1612,7 +1612,7 @@
                 78
             ],
             "flags": {},
-            "order": 42,
+            "order": 44,
             "mode": 0,
             "inputs": [
                 {
@@ -1659,7 +1659,7 @@
                 78
             ],
             "flags": {},
-            "order": 44,
+            "order": 46,
             "mode": 0,
             "inputs": [
                 {
@@ -1706,7 +1706,7 @@
                 246
             ],
             "flags": {},
-            "order": 46,
+            "order": 48,
             "mode": 0,
             "inputs": [
                 {
@@ -1763,7 +1763,7 @@
                 246
             ],
             "flags": {},
-            "order": 43,
+            "order": 45,
             "mode": 0,
             "inputs": [
                 {
@@ -1792,7 +1792,7 @@
                 246
             ],
             "flags": {},
-            "order": 45,
+            "order": 47,
             "mode": 0,
             "inputs": [
                 {
@@ -1821,7 +1821,7 @@
                 246
             ],
             "flags": {},
-            "order": 47,
+            "order": 49,
             "mode": 0,
             "inputs": [
                 {
@@ -1850,7 +1850,7 @@
                 26
             ],
             "flags": {},
-            "order": 31,
+            "order": 33,
             "mode": 0,
             "inputs": [
                 {
@@ -1887,7 +1887,7 @@
                 146
             ],
             "flags": {},
-            "order": 48,
+            "order": 50,
             "mode": 0,
             "inputs": [
                 {
@@ -1943,7 +1943,7 @@
                 150
             ],
             "flags": {},
-            "order": 49,
+            "order": 51,
             "mode": 0,
             "inputs": [
                 {
@@ -1993,7 +1993,7 @@
                 78
             ],
             "flags": {},
-            "order": 51,
+            "order": 53,
             "mode": 0,
             "inputs": [
                 {
@@ -2041,7 +2041,7 @@
                 78
             ],
             "flags": {},
-            "order": 54,
+            "order": 56,
             "mode": 0,
             "inputs": [
                 {
@@ -2088,7 +2088,7 @@
                 26
             ],
             "flags": {},
-            "order": 20,
+            "order": 22,
             "mode": 0,
             "inputs": [
                 {
@@ -2124,7 +2124,7 @@
                 26
             ],
             "flags": {},
-            "order": 34,
+            "order": 36,
             "mode": 0,
             "inputs": [
                 {
@@ -2161,7 +2161,7 @@
                 246
             ],
             "flags": {},
-            "order": 50,
+            "order": 52,
             "mode": 0,
             "inputs": [
                 {
@@ -2190,7 +2190,7 @@
                 246
             ],
             "flags": {},
-            "order": 52,
+            "order": 54,
             "mode": 0,
             "inputs": [
                 {
@@ -2219,7 +2219,7 @@
                 246
             ],
             "flags": {},
-            "order": 53,
+            "order": 55,
             "mode": 0,
             "inputs": [
                 {
@@ -2248,7 +2248,7 @@
                 246
             ],
             "flags": {},
-            "order": 55,
+            "order": 57,
             "mode": 0,
             "inputs": [
                 {
@@ -2277,7 +2277,7 @@
                 318
             ],
             "flags": {},
-            "order": 5,
+            "order": 7,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2285,7 +2285,7 @@
                     "name": "image",
                     "type": "IMAGE",
                     "links": [
-                        119
+                        124
                     ],
                     "slot_index": 0
                 }
@@ -2313,7 +2313,7 @@
                 144.9947509765625
             ],
             "flags": {},
-            "order": 6,
+            "order": 5,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2349,7 +2349,7 @@
                 111.6533203125
             ],
             "flags": {},
-            "order": 7,
+            "order": 6,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2384,7 +2384,7 @@
                 154
             ],
             "flags": {},
-            "order": 56,
+            "order": 58,
             "mode": 0,
             "inputs": [
                 {
@@ -2412,6 +2412,78 @@
                 95,
                 false
             ]
+        },
+        {
+            "id": 79,
+            "type": "LayerColor: Brightness & Contrast",
+            "pos": [
+                258.5962829589844,
+                1236.693603515625
+            ],
+            "size": [
+                415.8000183105469,
+                106
+            ],
+            "flags": {},
+            "order": 13,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "link": 124
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "image",
+                    "type": "IMAGE",
+                    "links": [
+                        125,
+                        126
+                    ],
+                    "slot_index": 0
+                }
+            ],
+            "properties": {
+                "aux_id": "chflame163/ComfyUI_LayerStyle",
+                "ver": "a085d8ca3cf3e3e8624ac0bb37a474d9d329e60e",
+                "Node name for S&R": "LayerColor: Brightness & Contrast"
+            },
+            "widgets_values": [
+                1,
+                1,
+                1
+            ],
+            "color": "rgba(27, 89, 123, 0.7)"
+        },
+        {
+            "id": 80,
+            "type": "PreviewImage",
+            "pos": [
+                835.3590698242188,
+                1250.3818359375
+            ],
+            "size": [
+                210,
+                26
+            ],
+            "flags": {},
+            "order": 16,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 126
+                }
+            ],
+            "outputs": [],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.15",
+                "Node name for S&R": "PreviewImage"
+            }
         }
     ],
     "links": [
@@ -3032,14 +3104,6 @@
             "IMAGE"
         ],
         [
-            119,
-            74,
-            0,
-            34,
-            0,
-            "IMAGE"
-        ],
-        [
             120,
             75,
             0,
@@ -3068,6 +3132,30 @@
             67,
             0,
             77,
+            0,
+            "IMAGE"
+        ],
+        [
+            124,
+            74,
+            0,
+            79,
+            0,
+            "IMAGE"
+        ],
+        [
+            125,
+            79,
+            0,
+            34,
+            0,
+            "IMAGE"
+        ],
+        [
+            126,
+            79,
+            0,
+            80,
             0,
             "IMAGE"
         ]
@@ -3207,10 +3295,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.3797498335832458,
+            "scale": 0.7400249944258173,
             "offset": [
-                -2667.8765707821863,
-                -1017.2034188566292
+                175.75742522740677,
+                -632.0898322841804
             ]
         }
     },
