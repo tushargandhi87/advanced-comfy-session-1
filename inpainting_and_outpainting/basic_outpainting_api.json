@@ -40,7 +40,10 @@
     },
     "6": {
         "inputs": {
-            "text": "classy room with windows",
+            "text": [
+                "17",
+                0
+            ],
             "clip": [
                 "4",
                 1
@@ -53,7 +56,10 @@
     },
     "7": {
         "inputs": {
-            "text": "text, watermark",
+            "text": [
+                "18",
+                0
+            ],
             "clip": [
                 "4",
                 1
@@ -101,23 +107,13 @@
             "bottom": 200,
             "feathering": 40,
             "image": [
-                "11",
+                "15",
                 0
             ]
         },
         "class_type": "ImagePadForOutpaint",
         "_meta": {
             "title": "Pad Image for Outpainting"
-        }
-    },
-    "11": {
-        "inputs": {
-            "image": "ComfyUI_00018_.png",
-            "upload": "image"
-        },
-        "class_type": "LoadImage",
-        "_meta": {
-            "title": "Load Image"
         }
     },
     "12": {
@@ -162,6 +158,81 @@
         "class_type": "SetLatentNoiseMask",
         "_meta": {
             "title": "Set Latent Noise Mask"
+        }
+    },
+    "15": {
+        "inputs": {
+            "brightness": 1,
+            "contrast": 1,
+            "saturation": 1,
+            "image": [
+                "19",
+                0
+            ]
+        },
+        "class_type": "LayerColor: Brightness & Contrast",
+        "_meta": {
+            "title": "LayerColor: Brightness & Contrast"
+        }
+    },
+    "16": {
+        "inputs": {
+            "images": [
+                "15",
+                0
+            ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+            "title": "Preview Image"
+        }
+    },
+    "17": {
+        "inputs": {
+            "default_value": "",
+            "label": "Positive Prompt"
+        },
+        "class_type": "FSLoadText",
+        "_meta": {
+            "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "18": {
+        "inputs": {
+            "default_value": "",
+            "label": "Negative Prompt"
+        },
+        "class_type": "FSLoadText",
+        "_meta": {
+            "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "19": {
+        "inputs": {
+            "image": "example.png",
+            "upload": "image",
+            "label": "Input Image"
+        },
+        "class_type": "FSLoadImage",
+        "_meta": {
+            "title": "[FS]⚡Load Image (Input)"
+        }
+    },
+    "20": {
+        "inputs": {
+            "filename_prefix": "FlowScale",
+            "format": "png",
+            "label": "Output Image",
+            "quality": 95,
+            "lossless": false,
+            "images": [
+                "8",
+                0
+            ]
+        },
+        "class_type": "FSSaveImage",
+        "_meta": {
+            "title": "[FS]⚡Save Image (Output)"
         }
     }
 }
