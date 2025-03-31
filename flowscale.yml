@@ -203,6 +203,10 @@ workflows:
     name: basic_relighting.json
     description: ''
     file: relighting/basic_relighting.json
+  - id: jf41pmlb7u
+    name: product_photography_improved.json
+    description: ''
+    file: basics/product_photography_improved.json
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
